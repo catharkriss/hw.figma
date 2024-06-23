@@ -5,12 +5,22 @@
     font-family: "Montserrat", sans-serif;
 }
 
+
 a {
     text-decoration: none;
 }
 
 li {
     list-style: none;
+}
+
+.container {
+    width: 100%;
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding-left: 16px;
+    padding-right: 16px; */
 }
 
 .header {
@@ -106,22 +116,107 @@ li {
     content: url(./icons/Triangle.png);
 }
 
-.hero {
-    margin: 100px auto;
-    width: 75%;
+.hero-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    padding-bottom: 99px;
 }
 
-.right__image,
-.left__section {
-    margin-right: 100px;
+.features-heading {
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43.88px;
+    width: 539px;
+    margin: 0 auto;
 }
 
-.right__section {
-    float: right;
-    /* margin: 0 15px; */
+.features-section__cards {
+    display: flex;
+    list-style: none;
+    gap: 24px;
+    justify-content: center;
+  }
+  
+.features-section__cards__item {
+    padding: 60px 0;
+    max-width: 300px;
 }
 
-.right__img {
-    width: 75%;
-    height: auto;
+.card__heading {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 26.82px;
+    padding-bottom: 16px;
+}
+
+.card__text {
+    color: hsla(36, 21%, 27%, 1);
+    line-height: 26px;
+    padding-bottom: 16px;
+}
+
+.cards__image {
+    padding-bottom: 16px;
+}
+
+.feature-button--one {
+    background-color: hsla(36, 100%, 50%, 1);
+    padding: 13px 40px;
+    border-radius: 4px;
+    color: white;
+}
+
+.feature-button {
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+
+.second-section__heading + 
+.first-section__heading {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    color: hsla(36, 21%, 15%, 1);
+    margin-bottom: 30px;
+}
+
+
+.form-text {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    color:  hsla(36, 21%, 15%, 1);
+}
+
+.navigation-link {
+    font-weight: 500;
+    line-height: 26px;
+    font-size: 16px;
+    color: hsla(36, 21%, 27%, 1);
+}
+
+li {
+    padding-top: 16px;
+}
+
+input {
+    height: 42px;
+}
+
+.footer--button {
+    background-color: hsla(36, 100%, 50%, 1);
+    padding: 13px 40px;
+    border-radius: 4px;
+    color: white;
+}
+
+.footer-search__button{
+    margin-top: 25px;
 }
