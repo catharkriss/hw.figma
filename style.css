@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    width: 100%;
+    max-width: 1550px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 120px;
+    padding-right: 120px;
+    margin: 0 auto;
+}
+
+.header {
+    font-size: 0;
+    white-space: nowrap;
+    padding: 14px 120px;
+}
+
+.header > * {
+    font-size: 1rem;
+    display: inline-block;
+}
+
+.header__nav {
+    width: calc(100% - 37px - 400px);
+    text-align: center;
+    font-size: 0px;
+}
+
+.nav__link {
+    font-size: 1rem;
+    margin: 0 0.5rem;
+    font-weight: 400;
+    line-height: 28px;
+    color: black;
+}
+
+.links:hover {
+    color: hsla(36, 100%, 50%, 1);
+}
+
+.button__one {
+    border: 1px solid hsla(211, 44%, 82%, 1);
+    padding: 13px 25px;
+    border-radius: 4px;
+    color: black;
+}
+
+.button__two {
+    background-color: hsla(36, 100%, 50%, 1);
+    padding: 13px 25px;
+    border-radius: 4px;
+    color: white;
+}
+
+.header__button:hover, 
+.hero__button:hover {
+    opacity: 20%;
+}
+
+
+.left__heading {
+    font-size: 44px;
+    line-height: 54px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    padding-top: 67px;
+    /* width: 500px; */
+}
+
+.left__text {
+    font-size: 18px;
+    font-weight: 400px;
+    line-height: 28px;
+    width: 500px;
+    margin-bottom: 20px;
+}
+
+.left__buttons {
+    display: inline-block;
+    font-weight: 700;
+}
+
+.left__button--one {
+    background-color: hsla(36, 100%, 50%, 1);
+    padding: 13px 40px;
+    border-radius: 4px;
+    color: white;
+}
+
+.right__img {
+    width: 100%;
+    max-width: 644px;
+    height: auto;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    padding-bottom: 99px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.features-section {
+    min-height: 510px;
+    height: 100%;
+    background-image: linear-gradient( rgba(255, 244, 229, 0), rgba(255, 236, 222, 0.63));
+    border-bottom-right-radius: 90%;
+    border-bottom-left-radius: 90%;
+}
+
+.features-heading {
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43.88px;
+    width: 539px;
+    margin: 0 auto;
+}
+
+.features-section__cards {
+    display: flex;
+    list-style: none;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 70px;
+  }
+  
+.features-section__cards__item {
+    padding: 60px 0;
+    max-width: 300px;
+}
+
+.card__heading {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 26.82px;
+    padding-bottom: 16px;
+}
+
+.card__text {
+    color: hsla(36, 21%, 27%, 1);
+    line-height: 26px;
+    padding-bottom: 16px;
+}
+
+.cards__image {
+    padding-bottom: 16px;
+}
+
+.feature-button--one {
+    background-color: hsla(36, 100%, 50%, 1);
+    padding: 13px 40px;
+    border-radius: 4px;
+    color: white;
+}
+
+.feature-button {
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.second-section__heading + 
+.first-section__heading {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    color: hsla(36, 21%, 15%, 1);
+    margin-bottom: 30px;
+}
+
+
+.form-text {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    color:  hsla(36, 21%, 15%, 1);
+}
+
+.navigation-link {
+    font-weight: 500;
+    line-height: 26px;
+    font-size: 16px;
+    color: hsla(36, 21%, 27%, 1);
+}
+
+li {
+    padding-top: 16px;
+}
+
+input {
+    height: 42px;
+}
+
+.footer--button {
+    background-color: hsla(36, 100%, 50%, 1);
+    padding: 13px 40px;
+    border-radius: 4px;
+    color: white;
+}
+
+.footer__input {
+    margin-top: 25px;
+}
+
+.footer-search__button {
+    margin-top: 25px;  
+}
+
+
+.footer-logo {
+    align-self: flex-start;
+}

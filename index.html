@@ -3,97 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>Homework</title>
 </head>
 <body>
-    <header>
-        <section>
-            <nav>
-                <div>
-                    <img src="icons/Logo.svg" alt="logo" srcset="">
-                </div>
-            </nav>
-        </section>
-        <section>
-            <ul>
-                <li>Product</li>
-                <li>Customers</li>
-                <li>Pricing</li>
-                <li>Resources</li>
-            </ul>
-        </section>
-        <section>
-            <a href="#">Sign In</a>
-            <a href="#">Sign Up</a>
-        </section>
+    <header class="header container">
+        <a href="#" class="logo header__logo">
+            <img src="icons/Logo.svg" alt="logo" srcset="">
+        </a>
+        <nav class="nav header__nav">
+                <a href="" class="links nav__link">Product</a>
+                <a href="" class="links nav__link">Customers</a>
+                <a href="" class="links nav__link">Pricing</a>
+                <a href="" class="links nav__link">Resources</a>
+        </nav>
+        <div class="header__buttons">
+            <a href="#" class="button__one header__button">Sign In</a>
+            <a href="#" class="button__two header__button">Sign Up</a>
+        </div>
     </header>
-    <main>
-        <section>
-            <div>
-                <h1>The Design Thinking</h1>
-                <p>Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine your next user experience.</p>
+    <main class="main">
+        <section class="hero-section container">
+        <div class="hero">
+            <div class="left__section">
+                <h1 class="left__heading">The Design Thinking superpowers</h1>
+                <p class="left__text">Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine your next user experience.</p>
+                <div class="left__buttons">
+                    <a href="#" class="hero__button left__button--one">Get started</a>
+                </div> 
+            </div>  
+            <div class="right__section">
+                <img src="images/Image.png" alt="happy people" srcset="" class="right__img">
             </div>
-            <div>
-                <div>
-                    <a href="#">Ger started</a>
-                </div>
-                <div>
-                    <img src="icons/Triangle.png" alt="triangle" srcset="">
-                    <a href="#">Watch the Video</a>
-                </div>
-                <div>
-                    <img src="images/Image.png" alt="happy people" srcset="">
-                </div>
-            </div>
+        </div>
         </section>
-        <section>
-            <div>
-                <h2>We design tools to unveil your superpowers</h2>
-            </div>
-            <div>
-                <ul>
-                    <li>
-                        <img src="icons/icon1.svg" alt="icon" srcset="">
-                        <h4>First click tests</h4>
-                        <p>While most people enjoy casino gambling,</p>
+        <section class="features-section container">
+            <h2 class="features-heading">We design tools to unveil your superpowers</h2>
+                <ul class="features-section__cards">
+                    <li class="features-section__cards__item">
+                        <img src="icons/icon1.svg" alt="icon" srcset="" class="cards__image">
+                        <h4 class="card__heading">First click tests</h4>
+                        <p class="card__text">While most people enjoy casino gambling,</p>
                     </li>
-                    <li>
-                        <img src="icons/icon2.svg" alt="icon" srcset="">
-                        <h4>Design surveys</h4>
-                        <p>Sports betting, lottery and bingo playing for the fun</p>
+                    <li class="features-section__cards__item">
+                        <img src="icons/icon2.svg" alt="icon" srcset="" class="cards__image">
+                        <h4 class="card__heading">Design surveys</h4>
+                        <p class="card__text">Sports betting, lottery and bingo playing for the fun</p>
                     </li>
-                    <li>
-                        <img src="icons/icon3.svg" alt="icon" srcset="">
-                        <h4>Preference tests</h4>
-                        <p>The Myspace page defines the individual.</p>
+                    <li class="features-section__cards__item">
+                        <img src="icons/icon3.svg" alt="icon" srcset="" class="cards__image">
+                        <h4 class="card__heading">Preference tests</h4>
+                        <p class="card__text">The Myspace page defines the individual.</p>
                     </li>
-                    <li>
-                        <img src="icons/icon4.svg" alt="icon" srcset="">
-                        <h4>Five second tests</h4>
-                        <p>Personal choices and the overall personality of the person. </p>
+                    <li class="features-section__cards__item">
+                        <img src="icons/icon4.svg" alt="icon" srcset="" class="cards__image">
+                        <h4 class="card__heading">Five second tests</h4>
+                        <p class="card__text">Personal choices and the overall personality of the person. </p>
                     </li>
                 </ul>
-            </div>
-            <div>
-                <a href="#">SIGN UP NOW</a>
+            <div class="feature-button">
+                <a href="#" class="feature-button--one">SIGN UP NOW</a>
             </div>
         </section>
-        <section>
+        <!-- <section>
             <div>
                 <p>Effortless Validation for</p>
                 <h2>Design Professionals</h2>
                 <p>The Myspace page defines the individual, his or her characteristics, traits, personal choices and the overall personality of the person. </p>
             </div>
             <div>
-                <h4>Accessory makers</h4>
+                <h3>Accessory makers</h3>
                 <p>While most people enjoy casino gambling, sports betting, lottery and bingo playing for the fun</p>
             </div>
             <div>
-                <h4>Alterationists</h4>
+                <h3>Alterationists</h3>
                 <p>If you are looking for a new way to promote your business that won’t cost you more money, </p>
             </div>
             <div>
-                <h4>Custom Design designers</h4>
+                <h3>Custom Design designers</h3>
                 <p>If you are looking for a new way to promote your business that won’t cost you more money, </p>
             </div>
             <div>
@@ -103,7 +93,7 @@
         <section>
             <div>
                 <p>Easier decision making for</p>
-                <h3>Product Managers</h3>
+                <h2>Product Managers</h2>
                 <p>The Myspace page defines the individual, his or her characteristics, traits, personal choices and the overall personality of the person. </p>
             </div>
             <div>
@@ -133,47 +123,51 @@
                 <p>Few would argue that, despite the advancements of feminism over the past three decades, women still face a double standard when it comes to their behavior. </p>
             </div>
             <div>
-                <h4>Accessory makers</h4>
+                <h3>Accessory makers</h3>
                 <p>While most people enjoy casino gambling, sports betting, lottery and bingo playing for the fun</p>
             </div>
             <div>
-                <h4>Alterationists</h4>
+                <h3>Alterationists</h3>
                 <p>If you are looking for a new way to promote your business that won’t cost you more money.</p>
             </div>
             <div>
-                <h4>Custom Design designers</h4>
+                <h3>Custom Design designers</h3>
                 <p>If you are looking for a new way to promote your business that won’t cost you more money.</p>
             </div>
             <div>
                 <img src="images/marketers.png" alt="a man with screen" srcset="">
             </div>
         </section>
-    </main>
-    <footer>
-        <div>
-            <img src="icons/Logo.svg" alt="logo" srcset="">
-        </div>
-        <div>
-            <ul>
-                <li>About Us</li>
-                <li>Blog</li>
-                <li>Contact</li>
-                <li>FAQ</li>
+    </main> -->
+    <footer class="footer container">
+         <img src="icons/Logo.svg" alt="logo" srcset="" class="footer-logo">
+         <div class="first-section">  
+            <h4 class="fisrt-section__heading">Quick Links</h4>
+            <ul class="fisrt-section__nav">
+                <a href="#" class="navigation-link"><li>About Us</li></a>
+                <a href="#" class="navigation-link"><li>Blog</li></a>
+                <a href="#" class="navigation-link"><li>Contact</li></a>
+                <a href="#" class="navigation-link"><li>FAQ</li></a>
+            </ul>
+        </div> 
+        <div class="second-section">
+            <h4 class="second-section__heading">Legal Stuff</h4>
+            <ul class="second-section__nav">
+                <a href="#" class="navigation-link"><li>Disclaimer</li></a>
+                <a href="#" class="navigation-link"><li>Financing</li></a>
+                <a href="#" class="navigation-link"><li>Privacy Policy</li></a>
+                <a href="#" class="navigation-link"><li>Terms of Service</li></a>
             </ul>
         </div>
-        <div>
-            <ul>
-                <li>Disclaimer</li>
-                <li>Financing</li>
-                <li>Privacy Policy</li>
-                <li>Terms of Service</li>
-            </ul>
-        </div>
-        <div>
-            <input type="search" name="help" id="help">
-        </div>
-        <div>
-            <a href="#">Sign up Now</a>
+        <div class="footer-search">
+            <label for="help" class="form-text">Knowing you're always on <br> the best energy deal. 
+            </label>
+            <div>
+                <input type="search" name="help" id="help" placeholder="Enter your phone Number" size="45" class="footer__input">
+            </div>
+            <div class="footer-search__button"></div>
+                <a href="#" class="footer--button">Sign up Now</a>
+            </div>
         </div>
     </footer>
 </body>
